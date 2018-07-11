@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.section4.newsroom .thumbnail {
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+.section4 .thumbnail {
+    position: relative;
+    padding: 0;
+    border: none;
+    margin-bottom: 10px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.section4.newsroom .featured .thumbnail {
+  margin-bottom: 15px;
+}
+.section4.newsroom .thumbnail:hover .news-title-featured {
+  display: none;  
+}
+.section4.newsroom img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section4 .thumbnail .overlay {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.section4 .thumbnail:hover .overlay-inner {
+  background-color: transparent; 
+}
+.section4 .thumbnail .overlay-inner {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0px;
+    padding: 0 20px;
+    width: 100%;
+}
+.section4.newsroom .thumbnail a {
+    text-decoration: none;
+}
+.section4 .thumbnail .overlay-inner h4 {
+    text-transform: inherit;
+    font-weight: 300;
+    color: #fff;
+    font-size: 150%;
+}
+.section4 .thumbnail:hover .overlay {
+    background-color: rgba(0,147,224,0.7);
+    cursor: pointer;
+}
+.section4 .thumbnail .overlay-inner .title-hover {
+  display: none;
+}
+.section4 .thumbnail:hover .news-title {
+  display: none;
+}
+.section4 .thumbnail:hover .title-hover {
+  display: block;
+}
+
+
+
