@@ -1,4 +1,7 @@
 # news-images-with-text-overlays
+Spice up intrigue around your content assets with these simple image boxes and text overlays.
+
+One of the most important inbound marketing strategies for any organization is content marketing. The quality of content itself remains the most important part, but how that content is presented to readers can also be a major part in its success. 
 
 ## Tutorial		  
 For detailed instruction's, view Solodev's [How to Create Image Boxes with Text Overlays](https://www.solodev.com/blog/web-design/how-to-create-image-boxes-with-text-overlays.stml) article.
